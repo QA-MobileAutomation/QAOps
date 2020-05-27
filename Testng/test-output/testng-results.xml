@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="13" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="147" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Day4.WebLoginHomeLoan()[pri:0, instance:test.Day4@525f1e4e]" name="WebLoginHomeLoan" class="test.Day4"/>
+        <method signature="Day1.Demo()[pri:0, instance:test.Day1@400cff1a]" name="Demo" class="test.Day1"/>
+        <method signature="Day2.Demo3()[pri:0, instance:test.Day2@275710fc]" name="Demo3" class="test.Day2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="69" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="Demo13()[pri:0, instance:test.Day1@400cff1a]" name="Demo13" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo13 -->
+        <test-method status="PASS" signature="ws()[pri:0, instance:test.Day1@400cff1a]" name="ws" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ws -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Day1@400cff1a]" name="Demo" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="ws()[pri:0, instance:test.Day1@400cff1a]" name="ws" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ws -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:test.Day1@400cff1a]" name="Demo1" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method status="PASS" signature="qa()[pri:0, instance:test.Day1@400cff1a]" name="qa" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa -->
+        <test-method status="PASS" signature="qa()[pri:0, instance:test.Day1@400cff1a]" name="qa" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa -->
+        <test-method status="PASS" signature="Demo121()[pri:0, instance:test.Day1@400cff1a]" name="Demo121" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo121 -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:test.Day2@275710fc]" name="Demo3" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day4">
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:test.Day4@525f1e4e]" name="WebLoginHomeLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.Day4@525f1e4e]" name="LoginAPIHomeLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobLoginHomeLoan()[pri:0, instance:test.Day4@525f1e4e]" name="MobLoginHomeLoan" duration-ms="7" started-at="2020-02-26T06:31:29Z" depends-on-methods="test.Day4.LoginAPIHomeLoan, test.Day4.WebLoginHomeLoan" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobLoginHomeLoan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="47" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="ritesh()[pri:0, instance:test.Day1@400cff1a]" name="ritesh" is-config="true" duration-ms="32" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ritesh -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="ritesh123()[pri:0, instance:test.Day2@275710fc]" name="ritesh123" is-config="true" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ritesh123 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method status="PASS" signature="MobsigninCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@17c386de]" name="MobsigninCarLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" finished-at="2020-02-26T06:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[172.30.11.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobsigninCarLoan -->
+        <test-method status="PASS" signature="MobsignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@17c386de]" name="MobsignoutCarLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" data-provider="getData" finished-at="2020-02-26T06:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobsignoutCarLoan -->
+        <test-method status="PASS" signature="MobsignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@17c386de]" name="MobsignoutCarLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" data-provider="getData" finished-at="2020-02-26T06:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobsignoutCarLoan -->
+        <test-method status="PASS" signature="MobsignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@17c386de]" name="MobsignoutCarLoan" duration-ms="0" started-at="2020-02-26T06:31:29Z" data-provider="getData" finished-at="2020-02-26T06:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobsignoutCarLoan -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
