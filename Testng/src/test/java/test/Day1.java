@@ -1,4 +1,4 @@
-package test;
+new package test;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
